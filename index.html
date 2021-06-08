@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
         <header>
@@ -23,9 +24,19 @@
         </div>
 
         <div class="choices">
-            <div class="choice">
-                
+            <div class="choice" id="r">
+                <img src="images/rock.png" alt="" style="width:100px;height:100px;">
+            </div>
+            <div class="choice" id="p">
+                <img src="images/paper.png" alt="" style="width:100px;height:100px;">
+            </div>
+            <div class="choice" id="s">
+                <img src="images/scissors.png" alt="" style="width:100px;height:100px;">
             </div>
         </div>
+
+    <p id="action-message">
+        Make your move.
+    </p>
     </body>
 </html>
